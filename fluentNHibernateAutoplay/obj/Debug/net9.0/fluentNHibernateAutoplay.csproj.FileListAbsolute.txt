@@ -1,0 +1,14 @@
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\bin\Debug\net9.0\fluentNHibernateAutoplay.exe
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\bin\Debug\net9.0\fluentNHibernateAutoplay.deps.json
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\bin\Debug\net9.0\fluentNHibernateAutoplay.runtimeconfig.json
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\bin\Debug\net9.0\fluentNHibernateAutoplay.dll
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\bin\Debug\net9.0\fluentNHibernateAutoplay.pdb
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\obj\Debug\net9.0\fluentNHibernateAutoplay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\obj\Debug\net9.0\fluentNHibernateAutoplay.AssemblyInfoInputs.cache
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\obj\Debug\net9.0\fluentNHibernateAutoplay.AssemblyInfo.cs
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\obj\Debug\net9.0\fluentNHibernateAutoplay.csproj.CoreCompileInputs.cache
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\obj\Debug\net9.0\fluentNHibernateAutoplay.dll
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\obj\Debug\net9.0\refint\fluentNHibernateAutoplay.dll
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\obj\Debug\net9.0\fluentNHibernateAutoplay.pdb
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\obj\Debug\net9.0\fluentNHibernateAutoplay.genruntimeconfig.cache
+C:\Users\hugo.almeida\Desktop\Modulo-BD\fluentNHibernateAutoplay\obj\Debug\net9.0\ref\fluentNHibernateAutoplay.dll
