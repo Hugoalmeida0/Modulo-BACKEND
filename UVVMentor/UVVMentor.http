@@ -1,0 +1,6 @@
+@UVVMentor_HostAddress = http://localhost:5095
+
+GET {{UVVMentor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
