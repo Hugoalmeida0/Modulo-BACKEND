@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UVVMentor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22c53641ec7e6a954a2a52a146f21635655b9051")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fae619733e4d2011c3907f84a37544019da13552")]
 [assembly: System.Reflection.AssemblyProductAttribute("UVVMentor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UVVMentor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

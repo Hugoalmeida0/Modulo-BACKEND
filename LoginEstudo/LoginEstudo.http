@@ -1,0 +1,6 @@
+@LoginEstudo_HostAddress = http://localhost:5119
+
+GET {{LoginEstudo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

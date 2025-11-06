@@ -9,6 +9,11 @@ namespace UVVMentor.Controllers;
 [Route("[controller]")]
 public class UsuarioController : ControllerBase
 {
+    private IMapper _mapper;
+    public UsuarioController(IMapper mapper)
+    {
+        _mapper = mapper
+    }
     [HttpPost]
     public IActionResult NovoUsuario([FromBody] Usuario usuario)
     {
