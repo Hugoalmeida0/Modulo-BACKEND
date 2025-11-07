@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoginEstudo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b45bda9040ac056699fd58aabe0d7b0a6ab1bbd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7e6b8a1d8e19a907cea1354fbb45a38f9c35362")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoginEstudo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoginEstudo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -41,6 +41,12 @@ builder.Services.AddScoped<ISession>(factory =>
 // Service
 builder.Services.AddScoped<IUsuario, UsuarioService>();
 
+// CORS - configurar antes de construir o app
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalhost", p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+});
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -49,5 +55,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowLocalhost");
 app.MapControllers();
 app.Run();

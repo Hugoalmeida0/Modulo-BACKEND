@@ -1,0 +1,175 @@
+:root {
+    --bg: #fbf5ee;
+    --card: #fff;
+    --muted: #8b6b58;
+    --accent: #5a2e1d;
+    --input: #f7efe6;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+body,
+html {
+    margin: 0;
+    background: var(--bg);
+    color: #2b2118;
+    overflow: hidden;
+}
+
+.topbar {
+    height: 56px;
+    background: var(--accent);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.brand {
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 16px;
+}
+
+.card {
+    width: 880px;
+    max-width: 100%;
+    background: var(--card);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    /* limitar altura para caber na viewport e evitar scroll de página */
+    max-height: calc(100vh - 96px);
+    overflow: auto;
+}
+
+.card h1 {
+    margin: 0 0 4px;
+    text-align: center;
+}
+
+.card .muted {
+    color: var(--muted);
+    text-align: center;
+    margin: 0 0 18px;
+    font-size: 13px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #efe6dd;
+    background: var(--input);
+}
+
+/* Grid para dividir em duas colunas (principal + endereço) */
+.form-grid {
+    display: flex;
+    gap: 28px;
+    align-items: flex-start;
+}
+
+.form-grid .left {
+    flex: 2;
+}
+
+.form-grid .right {
+    flex: 1;
+}
+
+/* Em telas menores empilha tudo */
+@media (max-width: 820px) {
+    .form-grid {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        padding: 18px;
+    }
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #efe6dd;
+    background: var(--input);
+}
+
+section h3 {
+    margin: 18px 0 8px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    gap: 12px;
+}
+
+.col {
+    flex: 1
+}
+
+.actions {
+    margin-top: 18px;
+}
+
+button {
+    width: 100%;
+    background: var(--accent);
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 12px;
+    font-size: 13px
+}
+
+@media (max-width: 520px) {
+    .card {
+        width: 100%;
+        padding: 18px;
+    }
+}
+
+/* reduzir espaçamento interno em telas pequenas para tentar caber sem scroll interno */
+@media (max-height: 700px) {
+    .card {
+        padding: 12px;
+    }
+
+    label {
+        margin: 6px 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        padding: 8px;
+    }
+
+    .card h1 {
+        font-size: 22px;
+    }
+}
