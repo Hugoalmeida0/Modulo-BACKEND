@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Autoplay-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fae619733e4d2011c3907f84a37544019da13552")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+819ad28e94299af254d0f04ba49c9615e956b908")]
 [assembly: System.Reflection.AssemblyProductAttribute("Autoplay-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Autoplay-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
