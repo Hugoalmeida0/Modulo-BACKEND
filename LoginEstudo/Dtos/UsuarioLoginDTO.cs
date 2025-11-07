@@ -35,7 +35,7 @@ public class UsuarioLoginDTO
         //Validação de nome
         if (string.IsNullOrWhiteSpace(nome))
         {
-            throw new ArgumentException("O nome completo não pode ser vazio.", nameof(nome));
+            throw new ArgumentException("O nome não pode ser vazio.", nameof(nome));
         }
 
         if (nome.Length < 3)

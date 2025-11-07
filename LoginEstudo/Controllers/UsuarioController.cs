@@ -1,6 +1,7 @@
 using AutoMapper;
 using LoginEstudo.Dtos;
 using LoginEstudo.Entities;
+using LoginEstudo.Service;
 using Microsoft.AspNetCore.Mvc;
 using NHibernate;
 using NHibernate.Mapping;
@@ -11,39 +12,17 @@ namespace LoginEstudo.Controllers;
 [Route("api/[controller]")]
 public class UsuarioController : ControllerBase
 {
-    private readonly IMapper _mapper;
-    private readonly NHibernate.ISession _session;
+    private readonly IUsuario _usuarioService;
 
-    public UsuarioController(IMapper mapper, NHibernate.ISession session)
+    public UsuarioController(IUsuario usuarioService)
     {
-        _mapper = mapper;
-        _session = session;
-    }
-
-    [HttpGet]
-    public IList<Usuario> RecuperaLogins()
-    {
-        IQueryable<Usuario> query = _session.Query<Usuario>();
-        IList<Usuario> ListagemDeUsuarios = query.ToList();
-
-        return ListagemDeUsuarios;
+        _usuarioService = usuarioService;
     }
 
     [HttpPost]
-    public void CadastroUsuario(UsuarioLoginDTO usuarioDTO)
+    public IActionResult CadastroUsuario([FromBody] UsuarioLoginDTO usuarioDTO)
     {
-        var usuario = _mapper.Map<Usuario>(usuarioDTO);
-        ITransaction transaction = _session.BeginTransaction();
-
-        try
-        {
-            _session.Save(usuario);
-            transaction.Commit();
-        }
-        catch (System.Exception)
-        {
-            transaction.Rollback();
-            throw;
-        }
+        _usuarioService.NovoUsuario(usuarioDTO);
+        return Ok("Usuário cadastrado com sucesso!");
     }
 }
