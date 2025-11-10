@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <CodeAnalysisRuleSet>..\.sonarlint\autoplay-apicsharp.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Herois\**" />
+    <EmbeddedResource Remove="Herois\**" />
+    <None Remove="Herois\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\autoplay-api\CSharp\SonarLint.xml" Link="SonarLint.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Audit.NET" Version="25.0.4" />
+    <PackageReference Include="Autoglass.Libs.Arquivos" Version="2.3.2" />
+    <PackageReference Include="Autoglass.Libs.Aws.S3" Version="2.1.0" />
+    <PackageReference Include="Autoglass.Libs.Comum" Version="2.3.0" />
+    <PackageReference Include="Autoglass.Libs.Core.EventStream" Version="2.3.0" />
+    <PackageReference Include="Autoglass.Libs.Core.Filas" Version="2.0.5" />
+    <PackageReference Include="Autoglass.Libs.Dominio" Version="2.2.0" />
+    <PackageReference Include="Autoglass.Libs.Email" Version="1.3.3" />
+    <PackageReference Include="Autoglass.Libs.Seguranca" Version="2.4.0" />
+    <PackageReference Include="Autoglass.Libs.TemplatesTexto" Version="2.0.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Confluent.Kafka" Version="2.3.0" />
+    <PackageReference Include="Maxpar.Libs.GenesisFluxos" Version="8.8.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization.Policy" Version="2.2.0" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="NewRelic.Agent.Api" Version="10.33.1" />
+    <PackageReference Include="NHibernate" Version="5.5.2" />
+    <PackageReference Include="NPOI" Version="2.7.2" />
+
+  </ItemGroup>
+
+
+
+</Project>

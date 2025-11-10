@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IQFcie8z/cg=",
+  "dgSpecHash": "pcaGxOuGI0k=",
   "success": true,
   "projectFilePath": "C:\\Users\\hugo.almeida\\Desktop\\Modulo-BACKEND\\fluentNHibernateAutoplay\\fluentNHibernateAutoplay.csproj",
   "expectedPackageFiles": [
@@ -100,12 +100,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\hugo.almeida\\.nuget\\packages\\zstdsharp.port\\0.8.6\\zstdsharp.port.0.8.6.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://nuget-repo.autoglass.com.br/v3/index.json."
-    }
-  ]
+  "logs": []
 }
